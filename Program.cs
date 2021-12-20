@@ -13,6 +13,7 @@ namespace RegexPattern
             Patterns patterns = new Patterns();
             Console.WriteLine(patterns.validateFirstName("Ashwini"));
             Console.WriteLine(patterns.validateLastName("Patil"));
+            Console.WriteLine(patterns.validateEmailId("abc.xyz@bl.co.in"));
             Console.ReadKey();
         }
     }
