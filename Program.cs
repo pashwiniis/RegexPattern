@@ -15,6 +15,7 @@ namespace RegexPattern
             Console.WriteLine(patterns.validateLastName("Patil"));
             Console.WriteLine(patterns.validateEmailId("abc.xyz@bl.co.in"));
             Console.WriteLine(patterns.validateMobileFormatt("91 7567849345"));
+            Console.WriteLine(patterns.validatePassword("Ashwini8"));
             Console.ReadKey();
         }
     }
